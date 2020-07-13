@@ -1,0 +1,9 @@
+Every file in this folder relates directly to a table.
+Table in mySQL needs to have this name without Table. 
+The framework then routes automatically. 
+
+Namespaces are used to easily find your way in the application architecture.
+By convention table objects will use a table that matches the lower cased and underscored version of the class name.
+If our table class was named BlogPosts your table should be named blog_posts.
+By convention the ORM also expects each table to have a primary key with the name of id.
+If you want to do things differently, need to specify so. 

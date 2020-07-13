@@ -1,0 +1,3 @@
+Every file in this folder relates directly to an entry in corresponding table.
+Table in mySQL needs to have this name without Table. 
+The framework then routes automatically. 
